@@ -1,0 +1,2 @@
+Money = 111
+name = Fariha
