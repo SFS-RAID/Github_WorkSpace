@@ -7,4 +7,4 @@ def ab(b):
     
 c = ab(c)
 d = 500
-print(c)    
+print(c)
