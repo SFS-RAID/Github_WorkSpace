@@ -8,6 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-std=c++23",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
@@ -28,6 +29,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-std=c++23",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
@@ -47,7 +49,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-std=c++20",
+                "-std=c++23",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
@@ -71,7 +73,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-std=c++20",
+                "-std=c++23",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
@@ -93,6 +95,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-std=c++23",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
@@ -114,6 +117,7 @@
                 "-fansi-escape-codes",
                 "-g",
                 "${file}",
+                "-std=c++23",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

@@ -3,8 +3,8 @@
 using namespace std;
 
 int main (){
-    int num1;
-    int num2;
+    double num1;
+    double num2;
     char op;
 
     cout << "HI" << endl;
