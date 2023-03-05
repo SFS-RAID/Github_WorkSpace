@@ -11,7 +11,7 @@ string sayhello(string name = ""){
 }
 
 int main(){
-    int x = 3;
+    int x = 4;
     cout << sayhello("Farhan");
     cout << cube(6);
 }
