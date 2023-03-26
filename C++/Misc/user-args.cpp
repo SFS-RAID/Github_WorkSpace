@@ -7,5 +7,5 @@ int main(int argc, char** argv){
     printf("Hello\n");
     if (strcmp(argv[1], "action")==0){
         printf("The action is done\n");
-    }
+    } else { printf("Something else is done\n");}
 }
