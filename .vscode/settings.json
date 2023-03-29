@@ -3,5 +3,6 @@
     "cmake.configureOnOpen": false,
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "codeium.enableSearch": false
 }
