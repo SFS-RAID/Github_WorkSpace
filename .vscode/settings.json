@@ -4,5 +4,6 @@
     "files.associations": {
         "iostream": "cpp"
     },
-    "codeium.enableSearch": false
+    "codeium.enableSearch": false,
+    "c-cpp-compile-run.output-location": ""
 }
