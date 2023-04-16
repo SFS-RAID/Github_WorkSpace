@@ -1,9 +1,0 @@
-{
-    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve",
-    "cmake.configureOnOpen": false,
-    "files.associations": {
-        "iostream": "cpp"
-    },
-    "codeium.enableSearch": false,
-    "c-cpp-compile-run.output-location": ""
-}
