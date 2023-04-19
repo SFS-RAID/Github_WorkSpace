@@ -1,0 +1,10 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "debug.terminal.clearBeforeReusing": false,
+    "code-runner.clearPreviousOutput": true,
+    "python.terminal.executeInFileDir": true,
+    "code-runner.fileDirectoryAsCwd": false,
+    "code-runner.saveAllFilesBeforeRun": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.showExecutionMessage": false
+}
