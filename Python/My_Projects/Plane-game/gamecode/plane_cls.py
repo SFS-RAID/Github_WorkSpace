@@ -1,6 +1,8 @@
 import random
 
 class Plane:
+    planelist = []
+
     def __init__(self, name, id, speed=800, armour=1000, maxweight=50000, fuel=1000):
         self.name = name
         self.id = id
@@ -8,6 +10,7 @@ class Plane:
         self.armour = armour
         self.maxweight = maxweight
         self.fuel = fuel
+        Plane.planelist.append(self)
 
 
 class CargoPlane(Plane):
@@ -35,3 +38,6 @@ class Fighter(Plane):
         self.slots = slots
         self.gundmg = gundmg
         self.weapons = weapons
+    
+    def appdmg(self, target, damage):
+        target.armour -= damage
