@@ -16,8 +16,6 @@ Made with just a Codespace
 
 * ### Getting famous for my legendary code
 
-* Definitely not for Flexing that I am a Dev
-
 * I own a mobile so I can't use normal vscode, I have to use a codespace
 
 * Useful to backup my projects
