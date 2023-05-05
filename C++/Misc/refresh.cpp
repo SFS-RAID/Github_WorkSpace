@@ -4,7 +4,11 @@ using std::cout, std::cin;
 
 class aclass{
     public:
+        aclass(int sg){
+            this->pg = sg;
+        }
         int g = 100;
+        std::string name = "plane";
         int viewpg(){
             return pg;
         }
@@ -14,7 +18,8 @@ class aclass{
 
 
 int main(){
-    cout << "Start";
-    aclass sc;
-    cout << sc.viewpg();
+    cout << "Start\n";
+    aclass sc(55);
+    cout << sc.viewpg() << "\n";
+    cout << sc.name << "\n";
 }
