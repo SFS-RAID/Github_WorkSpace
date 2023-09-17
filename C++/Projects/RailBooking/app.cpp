@@ -2,19 +2,9 @@
 #include <stdio.h>
 #include <string>
 #include "classes.cpp"
+#include "defenitions.cpp"
 using namespace std;
 
-constexpr unsigned int str2int(const char* str, int h = 0)
-{
-    return !str[h] ? 5381 : (str2int(str, h+1) * 33) ^ str[h];
-}
-
-string input(string text){
-	string var;
-	cout << text;
-	cin >> var;
-	return var;
-}
 
 int main(){
 	cout << "program ran\n";
