@@ -30,8 +30,8 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias vncstop='rm -rf /tmp/.*X*-*'
 
-source ~/custom/commands.sh
-source ~/custom/print.sh
+source commands.sh
+source print.sh
 
 
 export NVM_DIR="$HOME/.nvm"
