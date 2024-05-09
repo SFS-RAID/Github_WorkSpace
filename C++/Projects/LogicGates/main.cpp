@@ -20,6 +20,9 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    cout << "Start!";
+    cout << "Start!" << endl;
+    gate andgate(2, 1);
+    andgate.input[7] = 1;
+    cout << andgate.input.size() << endl;
     return 0;
 }
